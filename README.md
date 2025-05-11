@@ -27,71 +27,116 @@ By working on this project, contributors will:
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (React or similar framework)
-- **Backend:** Laravel, PHP (optional if you plan to extend)
 - **Version Control:** Git & GitHub
 - **Design Tools:** Figma
+- **Backend (Optional):** Laravel, PHP
 - **Database:** MySQL or SQLite (TBD)
+
+---
+
+## 🖌️ UI/UX Design Planning
+
+### 🎯 Design Goals
+
+- Create an intuitive and frictionless booking flow
+- Ensure a consistent and modern visual design
+- Maintain fast loading times and mobile responsiveness
+
+### ⭐ Key Features
+
+- Property search and filtering
+- Detailed property view with images
+- Secure checkout and booking process
+- User authentication
+
+### 📄 Primary Pages
+
+| Page                   | Description                                                           |
+|------------------------|-----------------------------------------------------------------------|
+| **Property Listing View** | Grid display of available properties with filter options              |
+| **Listing Detailed View** | Complete property details with image gallery and booking form         |
+| **Simple Checkout View**  | Streamlined booking and payment interface with confirmation flow     |
+
+### 💡 Importance of User-Friendly Design
+
+A smooth and intuitive design greatly enhances the user experience, reduces drop-offs, and increases booking conversion rates. By prioritizing responsiveness, clarity, and consistency, the interface supports trust, usability, and accessibility throughout the user journey.
+
+---
+
+### 🎨 Figma Design Specifications
+
+> **[Figma Link Placeholder]** *(Insert your actual Figma design link here)*
+
+#### 🎨 Color Styles
+
+- **Primary Color:** `#FF5A5F`
+- **Secondary Color:** `#008489`
+- **Background Color:** `#FFFFFF`
+- **Text Color:** `#222222`
+- **Secondary Text Color:** `#717171`
+
+#### 🖋️ Typography
+
+- **Primary Font:** Circular
+- **Font Weights:**
+  - **Headings:** Bold (700)
+  - **Body Text:** Medium (500)
+  - **Secondary Text:** Book (400)
+- **Font Sizes:**
+  - **Body Text:** 16px
+  - **Headings:** 24px–32px
+  - **Secondary Text:** 14px
+
+#### 🧠 Importance of Identifying Design Properties
+
+Understanding the design tokens (colors, typography, spacing) of a mockup ensures accurate and consistent implementation of the UI. This alignment between design and code helps maintain a cohesive visual language, reduces rework, and improves development speed and quality.
+
+---
+
+## 👥 Project Roles and Responsibilities
+
+| Role               | Responsibilities                                                                 |
+|--------------------|----------------------------------------------------------------------------------|
+| **Project Manager** | Oversees timeline, coordinates team, manages deliverables                        |
+| **Frontend Developers** | Implements UI components, ensures responsive design                            |
+| **Backend Developers** | Builds APIs, manages database, implements business logic                       |
+| **Designers**       | Creates Figma mockups, maintains design system, ensures UX consistency           |
+| **QA/Testers**      | Writes test cases, performs testing, reports bugs                                |
+| **DevOps Engineers**| Manages deployment, CI/CD pipelines, and server infrastructure                   |
+| **Product Owner**   | Defines requirements, prioritizes features, represents stakeholders              |
+| **Scrum Master**    | Facilitates agile process, organizes sprints, removes blockers                   |
 
 ---
 
 ## 🧩 UI Component Patterns
 
-Planned reusable UI components:
+### Planned Components
 
-- **Navbar:** Logo, search bar, user navigation, responsive layout
-- **Property Card:** Image, price, location, rating, favorite button
-- **Footer:** Company info, site links, social media, copyright
+#### 🔷 Navbar
+- Logo
+- Search bar
+- User navigation (login/profile)
+- Responsive mobile menu
 
----
+#### 🏠 Property Card
+- Property image
+- Price, location, and rating
+- Favorite (heart) button
+- Responsive layout for different screen sizes
 
-## 🖼️ Primary Pages
+#### 🔻 Footer
+- Site links
+- Company information
+- Social media icons
+- Copyright
 
-| Page | Description |
-|------|-------------|
-| **Property Listing View** | Grid of available properties with filters |
-| **Listing Detail View** | Full property details with images and booking form |
-| **Checkout View** | Secure and simple booking/payment interface |
-
----
-
-## 🎨 Design System (Figma)
-
-- **Primary Color:** `#FF5A5F`
-- **Secondary Color:** `#008489`
-- **Font:** Circular (16px base, 24px–32px headings)
-- **Text Colors:** `#222222`, `#717171`
-- **Background:** `#FFFFFF`
+Each component will be built with **reusability**, **responsiveness**, and **design consistency** in mind.
 
 ---
 
-## 👥 Team Roles
+## ✅ Status
 
-| Role | Responsibilities |
-|------|------------------|
-| **Project Manager** | Coordinate tasks, timeline, deliverables |
-| **Frontend Devs** | Build responsive UI components |
-| **Backend Devs** | API, database, business logic |
-| **Designers** | Figma mockups, design consistency |
-| **QA/Testers** | Write tests, find/report bugs |
-| **DevOps** | Handle CI/CD, deployment |
-| **Product Owner** | Define features, requirements |
-| **Scrum Master** | Facilitate meetings, remove blockers |
-
----
-
-## ✅ Best Practices
-
-- Modular, clean code structure
-- Feature branches with clear commit messages
-- Mobile-first, accessible design (WCAG)
-- Up-to-date documentation
-- Unit and integration testing
-
----
-
-## 🚀 Status
-
-Project initialization and design planning phase. More updates to come!
+Project initialization and UI/UX planning phases are in progress. Development and component implementation will begin soon.
 
 ---
 
